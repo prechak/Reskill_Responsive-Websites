@@ -1,0 +1,44 @@
+* {
+  font-family: sans-serif;
+}
+
+.product {
+  text-align: center;
+}
+
+.price {
+  font-size: 18px;
+}
+
+.shipping {
+  color: gray;
+  text-transform: uppercase;
+}
+
+article {
+  border-left: solid;
+  border-bottom: solid;
+  border-right: solid;
+  border-top: solid;
+}
+
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+a {
+  color: black;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
