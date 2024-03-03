@@ -1,9 +1,10 @@
-* {
+body {
   font-family: sans-serif;
+  line-height: 1.4;
 }
 
 .product {
-  text-align: center;
+  border: solid black;
 }
 
 .price {
@@ -15,14 +16,11 @@
   text-transform: uppercase;
 }
 
-article {
-  border-left: solid;
-  border-bottom: solid;
-  border-right: solid;
-  border-top: solid;
+h2 {
+  text-transform: uppercase;
+  text-align: center;
 }
 
-h2,
 h3 {
   text-transform: uppercase;
 }
