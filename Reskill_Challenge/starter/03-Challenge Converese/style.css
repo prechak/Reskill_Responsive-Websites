@@ -8,11 +8,12 @@ body {
 }
 
 .price {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .shipping {
-  color: gray;
+  font-size: 12px;
+  color: #777;
   text-transform: uppercase;
 }
 
@@ -25,8 +26,14 @@ h3 {
   text-transform: uppercase;
 }
 
-a {
+.more-info:link,
+.more-info:visited {
   color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
 }
 
 .button {
