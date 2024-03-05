@@ -93,6 +93,7 @@ h2::before {
   position: absolute;
   top: -13px;
   left: -30px;
+  letter-spacing: 1.5px;
 }
 
 .color-group {
