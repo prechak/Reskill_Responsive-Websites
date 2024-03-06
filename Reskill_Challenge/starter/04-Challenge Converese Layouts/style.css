@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.product {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.product-title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+}
+
+.price {
+  font-size: 24px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.shipping {
+  font-size: 12px;
+  color: #777;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 80px;
+  right: 307px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: inline-block;
+  /* anchor is inline element them do not apply top&bottom then make it block */
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+/* PRODUCT DETAIL */
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  /* margin-top: 30px; */
+  margin-bottom: 15px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid black;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+h2::before {
+  content: "SALE";
+  color: white;
+  background-color: orangered;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 7px 15px;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+  letter-spacing: 2px;
+  display: block;
+}
+
+.color {
+  background-color: #000;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  /* margin-top: 25px; */
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: cadetblue;
+  height: 25px;
+  width: 25px;
+}
+
+.color-red {
+  background-color: red;
+  height: 25px;
+  width: 25px;
+}
+
+.color-yellow {
+  background-color: yellow;
+  height: 25px;
+  width: 25px;
+}
+
+.color-green {
+  background-color: greenyellow;
+  height: 25px;
+  width: 25px;
+}
+
+.color-brown {
+  background-color: peru;
+  height: 25px;
+  width: 25px;
+}
+
+/* FLOATS */
+.product-img {
+  float: left;
+}
+
+.box1 {
+  /* background-color: blue; */
+  float: left;
+  width: 250px;
+  margin-left: 25px;
+}
+
+.box2 {
+  /* background-color: aqua; */
+  float: right;
+  width: 250px;
+  margin-right: 25px;
+}
