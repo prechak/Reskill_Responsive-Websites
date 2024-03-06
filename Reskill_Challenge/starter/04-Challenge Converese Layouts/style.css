@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .clearfix::after {
