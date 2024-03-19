@@ -97,6 +97,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
   align-items: center;
 }
@@ -191,6 +195,11 @@ body {
   padding: 1.2rem;
 }
 
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
 .link:link,
 .link:visited {
   display: inline-block;
@@ -227,6 +236,14 @@ body {
   width: 3rem;
   height: 3rem;
   color: #e67e22;
+}
+
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+
+  box-shadow: 0 0 0 0.8rem rgb(230, 126, 34, 0.5);
 }
 
 /* HELPER/SETTING CLASSES */

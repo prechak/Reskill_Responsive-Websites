@@ -499,9 +499,6 @@
 
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
 
-  /* temp */
-  height: 50rem;
-
   overflow: hidden;
 }
 
@@ -563,4 +560,17 @@
 
 .cta-form input::placeholder {
   color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgb(253, 242, 233, 0.5);
+}
+
+/***********************************/
+/* FOOTER SECTION */
+/***********************************/
+
+.footer {
+  padding: 9.6rem 0;
 }
