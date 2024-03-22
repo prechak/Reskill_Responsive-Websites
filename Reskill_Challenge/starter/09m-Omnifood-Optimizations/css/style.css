@@ -28,6 +28,7 @@
   align-items: center;
 
   gap: 3.2rem;
+  /* safari fix */
 }
 
 .main-nav-link:link,

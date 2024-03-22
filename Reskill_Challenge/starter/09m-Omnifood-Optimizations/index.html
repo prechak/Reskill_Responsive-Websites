@@ -15,6 +15,8 @@
     />
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
     <script defer src="js/script.js"></script>
 
     <link rel="stylesheet" href="css/style.css" />
@@ -30,11 +32,11 @@
       
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How it works</a></li>
-          <li><a class="main-nav-link" href="#">Meals</a></li>
-          <li><a class="main-nav-link" href="#">Testimonial</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li><a class="main-nav-link" href="#testimonials">Testimonial</a></li>
+          <li><a class="main-nav-link" href="#price">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
         </ul>
       </nav>
 
@@ -58,8 +60,8 @@
               nutritional needs.
             </p>
             <div class="heading-btn">
-              <a href="#" class="btn btn--full margin-right-sm">Start eating well</a>
-              <a href="#" class="btn btn--outline">Learn more &rarr;</a>
+              <a href="#cta" class="btn btn--full margin-right-sm">Start eating well</a>
+              <a href="#how" class="btn btn--outline">Learn more &rarr;</a>
             </div>
             <div class="delivered-meal">
               <div class="delivered-imgs">
@@ -98,7 +100,7 @@
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
@@ -166,7 +168,7 @@
         </div>
       </section>
 
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container center-text">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">
@@ -268,7 +270,7 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section class="section-testimonials"  id="testimonials">
           <div class="testimonial-container">
             <span class="subheading">Testimonials</span>
             <h2 class="heading-secondary">
@@ -392,7 +394,7 @@
         </div>
       </section>
 
-      <section class="section-price">
+      <section class="section-price" id="price">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -485,7 +487,7 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
