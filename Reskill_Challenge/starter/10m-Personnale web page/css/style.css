@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fdf2e9;
+  background-color: #e6dac1;
 
   /* Because we want header to sticky later */
   height: 9.6rem;
@@ -15,7 +15,7 @@
 }
 
 .logo {
-  height: 2.2rem;
+  height: 8rem;
 }
 
 /***********************************/
@@ -51,12 +51,12 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #8a6926;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  background-color: #ad8330;
 }
 
 /***********************************/
@@ -107,7 +107,7 @@
 /***********************************/
 
 .section-hero {
-  background-color: #fdf2e9;
+  background-color: #e6dac1;
   padding: 4.8rem 9.6rem;
 }
 
@@ -122,7 +122,7 @@
 }
 
 .hero-img {
-  width: 100%;
+  width: 66%;
 }
 
 .delivered-meal {
@@ -154,7 +154,7 @@
 }
 
 .delivered-text span {
-  color: #cf711f;
+  color: #795c22;
   font-weight: 700;
 }
 

@@ -23,7 +23,7 @@
 /* BELOW 1200px (Lanscape Tablets) */
 /***********************************/
 
-@media (max-width: 75em) {
+@media (max-width: 78em) {
   html {
     /* 9px divine by 16px = 56.25%  */
     font-size: 56.25%;
