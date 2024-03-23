@@ -257,14 +257,14 @@
 .step-img-box::before {
   width: 60%;
   padding-bottom: 60%;
-  background-color: #fdf2e9;
+  background-color: #f7f3ea;
   z-index: -2;
 }
 
 .step-img-box::after {
   width: 45%;
   padding-bottom: 45%;
-  background-color: #fae5d3;
+  background-color: #efe6d6;
   z-index: -1;
 }
 
@@ -348,7 +348,7 @@
 }
 
 .meal-icon {
-  color: #e67e22;
+  color: #795c22;
   height: 2.4rem;
   width: 2.4rem;
 }
@@ -367,7 +367,7 @@
 /***********************************/
 
 .section-testimonials {
-  background-color: #fdf2e9;
+  background-color: #e6dac1;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -437,7 +437,7 @@
 }
 
 .plan-name {
-  color: #cf711f;
+  color: #795c22;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -457,7 +457,7 @@
 }
 
 .pricing-plan--complete {
-  background-color: #fdf2e9;
+  background-color: #f7f3ea;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
@@ -509,12 +509,12 @@
 }
 
 .feature-icon {
-  color: #e67e22;
+  color: #b58f45;
   height: 2.4rem;
   width: 2.4rem;
   margin-bottom: 3.2rem;
 
-  background-color: #fdf2e9;
+  background-color: #f7f3ea;
   border-radius: 50%;
   padding: 1.6rem;
 }
@@ -549,7 +549,7 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  background-image: linear-gradient(to right bottom, #e6dac1, #c6a86e);
 
   overflow: hidden;
 }
@@ -574,8 +574,8 @@
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
-      rgba(235, 150, 76, 0.35),
-      rgba(230, 125, 34, 0.35)
+      rgb(198, 168, 110, 0.35),
+      rgb(198, 168, 110, 0.35)
     ),
     url("../img/eating.jpg");
   background-size: cover;
